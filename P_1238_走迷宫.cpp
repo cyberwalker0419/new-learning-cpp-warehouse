@@ -5,7 +5,7 @@ int mp[N][N],vis[N][N],ansx[1005],ansy[1005];
 int dx[]={0,-1,0,1},dy[]={-1,0,1,0};
 void dfs(int x,int y,int step){
     if(x==edx&&y==edy){
-        printf("(%d,%d)",)
+        printf("(%d,%d)->",x,y);
     }
     for(int i=0;i<3;i++){
         int tx=x+dx[i],ty=y+dy[i];

@@ -7,11 +7,9 @@ int main(){
     std::ios::sync_with_stdio(false);
     std::cin.tie(0);
     std::cout.tie(0);
-    ll T;
-    std::cin>>T;
-    while(T--){
-        ll n,m,d;
-        while()
-    }
+        srand(time(NULL));
+        int a,b;
+        std::cin>>a>>b;
+        std::cout<<(rand()%(b-a+1))+1<<'\n';
     return 0;
 }
