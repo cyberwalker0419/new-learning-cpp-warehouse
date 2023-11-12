@@ -1,4 +1,4 @@
-/*#include<bits/stdc++.h>
+#include<bits/stdc++.h>
 #define INF 0x7FFFFFFFFFFFFFFF
 typedef long long ll;
 ll A[10001],B[10001],l1,r1,l2,r2,n,m,q,minn[10001];
@@ -31,8 +31,8 @@ int main(){
     init();
     work();
     return 0;
-}*/
-#include <bits/stdc++.h>
+}
+/*#include <bits/stdc++.h>
 typedef long long ll;
 #define N 100005
 int main(){
@@ -41,4 +41,4 @@ int main(){
     std::cout.tie(0);
     
     return 0;
-}
+}*/
